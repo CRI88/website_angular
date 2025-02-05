@@ -1,0 +1,13 @@
+.promotional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(16,16,20);
+}
+
+.video {
+    width: 1680px;
+    height: 945px;
+}
