@@ -1,5 +1,5 @@
 .background {
-    background-color: black;
+    background-color: rgb(16,16,20);
     color: white;
     margin-top: 0px;
     padding: 20px;
@@ -13,6 +13,10 @@
     color: white;
     width: 20px;
     height: 20px;
+}
+
+.heroicon svg:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
 }
 
 .dropdown {
@@ -41,22 +45,22 @@
 }
 
 .dropdown-content a:hover {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: rgb(100, 100, 100);
 }
 
 .position1 {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
 }
 
 .position2 {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
 }
 
 .logo {
@@ -66,11 +70,14 @@
 
 .distribuir {
     color: white;
-    background-color: black;
+    background-color: rgb(18,18,22);
+    border: none;
 }
 
 .colorAll {
-    background-color: gray;
+    background-color: rgb(18,18,22);
+    font-family: 'Epic Games', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,15 +86,45 @@
 }
 
 .download {
-    background-color: rgb(51, 138, 189);
+    background-color: rgb(38,187,255);
     color: black;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.download:hover {
+    box-shadow: rgb(38,187,255) 0px 0px 20px;
+    color: white;
 }
 
 .login {
-    background-color: gray;
+    background-color: rgb(53,53,57);
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.login:hover {
+    box-shadow: white 0px 0px 20px;
+    color: white;
+}
+
+.assistance {
+    color: white;
+    text-decoration: none;
+}
+
+.assistance:hover {
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+}
+
+.store {
+    color: white;
+    text-decoration: none;
+}
+
+.store:hover {
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
 }
