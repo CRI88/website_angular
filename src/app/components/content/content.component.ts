@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import { Content1Component } from '../content1/content1.component';
+import { Content2Component } from '../content2/content2.component';
+import { Content3Component } from '../content3/content3.component';
 
 @Component({
   selector: 'app-content',
-  imports: [],
+  imports: [Content1Component, Content2Component, Content3Component],
   templateUrl: './content.component.html',
   styleUrl: './content.component.css'
 })
