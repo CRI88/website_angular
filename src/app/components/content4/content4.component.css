@@ -1,0 +1,108 @@
+.content4 {
+    background-color: rgb(16,16,20);
+    font-family: 'Epic Games', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+.title {
+    color: white;
+    text-decoration: none;
+}
+
+.title:hover {
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+}
+
+.start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.arrows {
+    background: #222;
+    border-radius: 150px;
+    width: 30px;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.arrows:hover {
+    background: #333;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background: rgb(16,16,20);
+    border-radius: 10px;
+    padding: 5px;
+    width: 190px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.card img {
+    width: 190px;
+    height: 230px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.card span {
+    color: white;
+    font-size: 18px;
+}
+
+.card:hover {
+    background: rgba(255, 255, 255, 0.082);
+}
+
+del {
+    color:#585858;
+    text-decoration: line-through;
+}
+
+.order {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.title1 {
+    color: #585858;
+    font-size: 13px;
+}
+
+.discount {
+    background-color: rgb(47, 111, 185);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.epic {
+    color: white;
+    background-color: rgb(92, 92, 92);
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+}

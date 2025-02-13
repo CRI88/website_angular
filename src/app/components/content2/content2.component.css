@@ -1,0 +1,49 @@
+.content2 {
+    background-color: rgb(16,16,20);
+    font-family: 'Epic Games', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+.boton-tienda {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 170px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+}
+
+.boton-tienda:hover {
+    background-color: #0056b3;
+}
+
+.icono {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.photo {
+    height: 280px;
+    width: 400px;
+}
+
+.order {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
