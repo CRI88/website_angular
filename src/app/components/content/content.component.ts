@@ -12,4 +12,10 @@ import { Content4Component } from '../content4/content4.component';
 })
 export class ContentComponent {
 
+  scrollToSection(sectionId: string) {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }

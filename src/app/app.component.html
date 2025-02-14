@@ -1,9 +1,9 @@
-<app-header></app-header>
+<app-header (scrollTo)="scrollToContent($event)"></app-header>
 
 <app-featured></app-featured>
 
 <router-outlet />
 
-<app-content></app-content>
+<app-content #content></app-content>
 
 <app-footer></app-footer>

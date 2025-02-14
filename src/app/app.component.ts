@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -18,4 +18,9 @@ import { Content4Component } from './components/content4/content4.component';
 })
 export class AppComponent {
   title = 'website';
+  @ViewChild(ContentComponent) contentComponent!: ContentComponent;
+
+  scrollToContent(section: string) {
+    this.contentComponent.scrollToSection(section);
+  }
 }
